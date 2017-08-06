@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-plugin-react-intl": "^2.3.1",
     "eslint": "^4.4.0",
     "eslint-plugin-react": "^7.1.0",
     "react-scripts": "1.0.10"
@@ -17,6 +18,7 @@
     "react": "^15.6.1",
     "react-docgen-displayname-handler": "^1.0.0",
     "react-dom": "^15.6.1",
+    "react-intl": "^2.3.0",
     "react-router": "^4.1.2",
     "react-styleguidist": "^5.5.9",
     "react-test-renderer": "^15.6.1",
