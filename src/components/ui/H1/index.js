@@ -1,5 +1,10 @@
 import styled from 'styled-components';
+import { grey100 } from '../../../styles/colors';
+import { fontSizeHuge } from '../../../styles/typography';
 
-const H1 = styled.h1`font-size: 2em;`;
+const H1 = styled.h1`
+  font-size: ${fontSizeHuge};
+  color: ${grey100};
+`;
 
 export default H1;
