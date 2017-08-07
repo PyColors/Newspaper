@@ -27,7 +27,8 @@
     "react-test-renderer": "^15.6.1",
     "react-translate": "^5.0.0",
     "source-map-explorer": "^1.4.0",
-    "styled-components": "^2.1.1"
+    "styled-components": "^2.1.1",
+    "uigradients": "^0.2.1"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
