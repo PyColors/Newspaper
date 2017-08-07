@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { grey100 } from '../../../styles/colors';
-import { fontSizeHuge } from '../../../styles/typography';
+import { white } from '../../../styles/colors';
+import { xlarge } from '../../../styles/typography';
 
 const H1 = styled.h1`
-  font-size: ${fontSizeHuge};
-  color: white;
+  font-size: ${xlarge};
+  color: ${white};
 `;
 
 export default H1;
