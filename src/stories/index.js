@@ -22,16 +22,14 @@ storiesOf('Button', module)
 		<Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
 	);
 */
-storiesOf('HeaderHome', module).add('Header Home', () =>
-  <HeaderHome>Header on Home Page</HeaderHome>
-);
 
 storiesOf('H1', module).add('H1', () => <H1>I am a title</H1>);
 storiesOf('H2', module).add('H2', () => <H2>I am a subtitle</H2>);
 
-storiesOf('HeaderHome', module).add('Title', () =>
-  <HeaderHome>SatusPanel</HeaderHome>
+storiesOf('HeaderHome', module).add('Header Home', () =>
+  <HeaderHome>Header on Home Page</HeaderHome>
 );
+
 storiesOf('SatusPanel Success', module).add('Success', () =>
   <SatusPanel success>Satus Panel success</SatusPanel>
 );
@@ -45,6 +43,39 @@ storiesOf('Satus Panel Info', module).add('Info', () =>
   <SatusPanel info>Satus Panel info</SatusPanel>
 );
 
-storiesOf('Button', module).add('with text', () =>
-  <Button onClick={action('clicked')}>Hello Button</Button>
-);
+storiesOf('Buttons', module)
+  .add('primaryOne', () =>
+    <Button primaryOne onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('primaryOneOutline', () =>
+    <Button primaryOneOutline onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('primaryTwo', () =>
+    <Button primaryTwo onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('primaryTwoOutline', () =>
+    <Button primaryTwoOutline onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('secondaryOne', () =>
+    <Button secondaryOne onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('secondaryOneOutline', () =>
+    <Button secondaryOneOutline onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  )
+  .add('disabled', () =>
+    <Button disabled onClick={action('clicked')}>
+      Hello Button
+    </Button>
+  );
