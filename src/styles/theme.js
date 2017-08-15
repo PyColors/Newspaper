@@ -9,10 +9,14 @@ export const theme = {
   // Colors
   // ******************
   colors: {
-    primary: '',
-    secondary: '',
+    primaryOne: '#1B70B2',
+    primaryTwo: '#7DC6FF',
+    secondaryOne: '#FFB23D',
+    secondaryTwo: '#B26F09',
+    secondaryThree: '',
     white: '#FFF',
     black: '#222',
+    none: 'none',
     border: 'rgba(0,0,0,0.1)',
     base: 'rgba(0,0,0,0.4)',
     alert: '',
