@@ -5,7 +5,7 @@ const { colors, fontSize } = theme;
 
 const H1 = styled.h1`
   font-size: ${fontSize.xlarge};
-  color: ${colors.white};
+  color: ${props => props.color || `${colors.primaryTwo}`};
 `;
 
 export default H1;
