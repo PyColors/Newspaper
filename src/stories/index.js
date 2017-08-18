@@ -13,6 +13,10 @@ import SatusPanel from '../components/ui/SatusPanel';
 import HeaderHome from '../components/ui/HeaderHome';
 import Button from '../components/ui/Button';
 
+import Label from '../components/ui/Label';
+import Input from '../components/ui/Input';
+import Textarea from '../components/ui/Textarea';
+
 /*
 storiesOf('Button', module)
 	.add('with text', () =>
@@ -79,3 +83,11 @@ storiesOf('Buttons', module)
       Hello Button
     </Button>
   );
+
+storiesOf('Label', module).add('Label', () =>
+  <Label title="Label TItle">Label</Label>
+);
+
+storiesOf('Input', module).add('Input', () => <Input>Label</Input>);
+
+storiesOf('Textarea', module).add('Textarea', () => <Textarea>Label</Textarea>);
