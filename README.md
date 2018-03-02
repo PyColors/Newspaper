@@ -22,7 +22,6 @@ Newspaper requires [Node.js](https://nodejs.org/) v6+ to run.
 Install the dependencies and devDependencies.
 
 ```sh
-$ git@github.com:PyColors/Newspaper.git
 $ cd newspaper
 $ npm install
 ```
