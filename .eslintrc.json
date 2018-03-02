@@ -20,7 +20,7 @@
         ],
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "quotes": [
             "error",
@@ -29,6 +29,11 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-expressions": [
+            {
+                "allowTaggedTemplates": true
+            }
         ]
     }
 }

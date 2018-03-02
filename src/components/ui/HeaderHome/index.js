@@ -5,7 +5,7 @@ import theme from '../../../styles/theme';
 const { colors } = theme;
 
 const HeaderHome = styled.header`
-  ${generator({ gradient: 'electric_violet', type: 'radial' })} height: 180px;
+  ${generator({ gradient: 'electric_violet', type: 'radial' })} height: 150px;
   padding: 20px;
   color: ${colors.white};
 `;

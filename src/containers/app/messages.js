@@ -7,7 +7,7 @@ import { defineMessages } from 'react-intl';
 
 export default defineMessages({
   titleMessage: {
-    id: 'qpv.containers.App.title.message',
-    defaultMessage: 'Welcome'
+    id: 'newspaper.containers.App.title.message',
+    defaultMessage: 'Newspaper'
   }
 });
