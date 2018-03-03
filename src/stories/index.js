@@ -30,63 +30,63 @@ storiesOf('Button', module)
 storiesOf('H1', module).add('H1', () => <H1>I am a title</H1>);
 storiesOf('H2', module).add('H2', () => <H2>I am a subtitle</H2>);
 
-storiesOf('HeaderHome', module).add('Header Home', () =>
+storiesOf('HeaderHome', module).add('Header Home', () => (
   <HeaderHome>Header on Home Page</HeaderHome>
-);
+));
 
-storiesOf('SatusPanel Success', module).add('Success', () =>
+storiesOf('SatusPanel Success', module).add('Success', () => (
   <SatusPanel success>Satus Panel success</SatusPanel>
-);
-storiesOf('Satus Panel Danger', module).add('Danger', () =>
+));
+storiesOf('Satus Panel Danger', module).add('Danger', () => (
   <SatusPanel danger>Satus Panel danger</SatusPanel>
-);
-storiesOf('Satus Panel Warning', module).add('Warning', () =>
+));
+storiesOf('Satus Panel Warning', module).add('Warning', () => (
   <SatusPanel warning>Satus Panel warning</SatusPanel>
-);
-storiesOf('Satus Panel Info', module).add('Info', () =>
+));
+storiesOf('Satus Panel Info', module).add('Info', () => (
   <SatusPanel info>Satus Panel info</SatusPanel>
-);
+));
 
 storiesOf('Buttons', module)
-  .add('primaryOne', () =>
+  .add('primaryOne', () => (
     <Button primaryOne onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('primaryOneOutline', () =>
+  ))
+  .add('primaryOneOutline', () => (
     <Button primaryOneOutline onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('primaryTwo', () =>
+  ))
+  .add('primaryTwo', () => (
     <Button primaryTwo onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('primaryTwoOutline', () =>
+  ))
+  .add('primaryTwoOutline', () => (
     <Button primaryTwoOutline onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('secondaryOne', () =>
+  ))
+  .add('secondaryOne', () => (
     <Button secondaryOne onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('secondaryOneOutline', () =>
+  ))
+  .add('secondaryOneOutline', () => (
     <Button secondaryOneOutline onClick={action('clicked')}>
       Hello Button
     </Button>
-  )
-  .add('disabled', () =>
+  ))
+  .add('disabled', () => (
     <Button disabled onClick={action('clicked')}>
       Hello Button
     </Button>
-  );
+  ));
 
-storiesOf('Label', module).add('Label', () =>
+storiesOf('Label', module).add('Label', () => (
   <Label title="Label TItle">Label</Label>
-);
+));
 
 storiesOf('Input', module).add('Input', () => <Input>Label</Input>);
 
