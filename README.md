@@ -1,4 +1,4 @@
-# Newspaper
+# Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper)
 
 [![N|Solid](http://www.pvhc.net/img28/wvjdpysovmhdmzunrlqr.png)]
 
