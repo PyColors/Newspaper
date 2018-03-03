@@ -1,8 +1,5 @@
 language: node_js
-
-node_js:
-  - '5'
-  - ‘4’
+node_js: 8
 
 matrix:
   fast_finish: true
@@ -13,23 +10,3 @@ cache:
 
 before_install:
   - npm prune
-
-before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-
-script: npm run test-with-coverage
-
-after_success: 'npm run coverage'
-
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: ./scripts/deploy.sh
-  on:
-    branch: master
-    node: '5'
-
-env:
-  global:
-    - NODE_ENV=production
