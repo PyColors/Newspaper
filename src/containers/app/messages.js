@@ -9,5 +9,17 @@ export default defineMessages({
   titleMessage: {
     id: 'newspaper.containers.App.title.message',
     defaultMessage: 'Newspaper'
+  },
+  sports: {
+    id: 'newspaper.containers.App.title.sports',
+    defaultMessage: 'Sports'
+  },
+  travel: {
+    id: 'newspaper.containers.App.title.travel',
+    defaultMessage: 'Travel'
+  },
+  science: {
+    id: 'newspaper.containers.App.title.science',
+    defaultMessage: 'Science'
   }
 });
