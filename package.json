@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
     "@storybook/addon-actions": "^3.3.14",
     "@storybook/addon-links": "^3.3.14",
     "@storybook/addons": "^3.3.14",
@@ -29,10 +30,15 @@
     "react-docgen-displayname-handler": "^1.0.0",
     "react-dom": "^16.2.0",
     "react-intl": "^2.3.0",
+    "react-redux": "^5.0.7",
     "react-router": "^4.1.2",
+    "react-router-redux": "^4.0.8",
     "react-test-renderer": "^16.2.0",
     "react-translate": "^6.0.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
     "source-map-explorer": "^1.4.0",
+    "storybook": "^1.0.0",
     "styled-components": "^3.1.6",
     "uigradients": "^0.2.1"
   },
