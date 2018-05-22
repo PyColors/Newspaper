@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import { injectGlobal } from 'styled-components';
+import theme from '../../styles/theme';
+
+const { colors } = theme;
 
 injectGlobal`
   html,
@@ -8,7 +11,7 @@ injectGlobal`
     padding: 0;
     height: 100%;
     width: 100%;
-    color: white;
+    color: ${colors.black};
     font-size: 14px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -27,6 +30,8 @@ injectGlobal`
   }
 `;
 
-const WrapperApp = styled.div`height: 100%;`;
+const WrapperApp = styled.div`
+  height: 100%;
+`;
 
 export default WrapperApp;
