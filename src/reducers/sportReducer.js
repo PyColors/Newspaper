@@ -3,7 +3,7 @@ import * as constantsActions from '../utils/constants_actions';
 const homePageReducer = (
   state = {
     isLoading: true,
-    dataHomePage: {},
+    data: [],
     error: null
   },
   action
@@ -17,7 +17,7 @@ const homePageReducer = (
     case constantsActions.RECEIVE_DATA_HOME_PAGE:
       return Object.assign({}, state, {
         isLoading: false,
-        dataHomePage: action.dataHomePage
+        data: action.data.articles
       });
 
     case constantsActions.FAILED_RECIEVE_DATA_HOME_PAGE:
