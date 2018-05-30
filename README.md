@@ -1,4 +1,4 @@
-# Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper)
+# Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 [![N|Solid](http://www.pvhc.net/img28/wvjdpysovmhdmzunrlqr.png)]
 
@@ -65,6 +65,3 @@ MIT
    [Storybook]: <https://github.com/storybooks/storybook>
    [Enzyme]: <https://github.com/airbnb/enzyme>
  
-
-
-
