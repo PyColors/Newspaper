@@ -9,18 +9,18 @@ const homePageReducer = (
   action
 ) => {
   switch (action.type) {
-    case constantsActions.FETCH_DATA_HOME_PAGE:
+    case constantsActions.FETCH_DATA:
       return Object.assign({}, state, {
         isLoading: true
       });
 
-    case constantsActions.RECEIVE_DATA_HOME_PAGE:
+    case constantsActions.RECEIVE_DATA:
       return Object.assign({}, state, {
         isLoading: false,
         data: action.data.articles
       });
 
-    case constantsActions.FAILED_RECIEVE_DATA_HOME_PAGE:
+    case constantsActions.FAILED_RECIEVE_DATA:
       return Object.assign({}, state, {
         isLoading: false,
         error: action.error
