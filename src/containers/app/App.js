@@ -24,7 +24,7 @@ class App extends Component {
     const Content = styled.div`
       display: inline-block;
       vertical-align: top;
-      width: 18%;
+      width: 35%;
       border: solid 1px #ddd;
       padding: 10px;
       margin: 0 0.25%;
@@ -62,14 +62,12 @@ class App extends Component {
           ) : (
             data.map((item, index) => {
               return (
-                <Content>
-                  <div key={index}>
-                    <p> {item.source.name} </p>
-                    <p> {item.description} </p>
-                    <a href={item.url}>{item.title}</a>
-                    <img src={item.urlToImage} width="75%" alt="" />
-                    <p> {item.publishedAt} </p>
-                  </div>
+                <Content key={index}>
+                  <p> {item.source.name} </p>
+                  <p> {item.description} </p>
+                  <a href={item.url}>{item.title}</a>
+                  <img src={item.urlToImage} width="75%" alt="" />
+                  <p> {item.publishedAt} </p>
                 </Content>
               );
             })
