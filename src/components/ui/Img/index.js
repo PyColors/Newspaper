@@ -21,8 +21,8 @@ Img.propTypes = {
   alt: PropTypes.string.isRequired,
   src: PropTypes.string.isRequired,
   title: PropTypes.string,
-  width: PropTypes.number,
-  height: PropTypes.number
+  width: PropTypes.string,
+  height: PropTypes.string
 };
 
 export default Img;
