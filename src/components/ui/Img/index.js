@@ -1,11 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import Wrapper from './Wrapper';
+const Figure = styled.figure`
+  min-height: 250px;
+`;
 
 const Img = props => {
   return (
-    <Wrapper>
+    <Figure>
       <img
         src={props.src}
         alt={props.alt}
@@ -13,7 +16,7 @@ const Img = props => {
         width={props.width}
         height={props.height}
       />
-    </Wrapper>
+    </Figure>
   );
 };
 
