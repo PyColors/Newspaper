@@ -26,18 +26,6 @@ export function fetchData() {
 
         if (response === undefined) {
           dispatch(fetchFailure(error));
-        } else {
-          error.status = response.status;
-          error.statusText = response.statusText;
-          response.text().then(text => {
-            try {
-              const json = JSON.parse(text);
-              error.message = json.message;
-            } catch (ex) {
-              error.message = text;
-            }
-            dispatch(fetchFailure(error));
-          });
         }
       });
   };
