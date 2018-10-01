@@ -8,7 +8,7 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   titleMessage: {
     id: 'newspaper.containers.App.title.message',
-    defaultMessage: 'Newspaper'
+    defaultMessage: '❝ Newspaper ❞'
   },
   sports: {
     id: 'newspaper.containers.App.title.sports',

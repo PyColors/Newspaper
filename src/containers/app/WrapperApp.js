@@ -14,6 +14,7 @@ injectGlobal`
     color: ${colors.black};
     font-size: 14px;
     font-family: "Avenir Next",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        background-color: #eee;
   }
   
   #root {

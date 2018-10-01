@@ -6,10 +6,17 @@ const Figure = styled.figure`
   min-height: 250px;
 `;
 
+const Image = styled.img`
+  border: solid 1px #dce6f0;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  background-color: #f3f6fa;
+`;
+
 const Img = props => {
   return (
     <Figure>
-      <img
+      <Image
         src={props.src}
         alt={props.alt}
         title={props.title}
