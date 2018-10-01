@@ -7,7 +7,6 @@ import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
 import HeaderHome from '../../components/ui/HeaderHome';
-import Button from '../../components/ui/Button';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 
@@ -31,14 +30,23 @@ class App extends Component {
     const Content = styled.div`
       display: inline-block;
       vertical-align: top;
-      width: 45%;
+      width: 75%;
       padding: 0;
     `;
 
-    const Fisrt = styled.div`
-      display: block;
-      width: 100%;
-      border: red 1px solid;
+    const Article = styled.article`
+      max-width: 64rem;
+      padding: 1rem 3rem;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    `;
+
+    const Hr = styled.hr`
+      height: 1px;
+      padding: 0;
+      margin: 1rem 0;
+      background-color: #dcdbdb;
+      border: 0;
     `;
 
     return (
@@ -47,16 +55,6 @@ class App extends Component {
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
-
-          <Button primaryTwo>
-            <FormattedMessage {...messages.sports} />{' '}
-          </Button>
-          <Button primaryTwo>
-            <FormattedMessage {...messages.travel} />{' '}
-          </Button>
-          <Button secondaryOne>
-            <FormattedMessage {...messages.science} />{' '}
-          </Button>
         </HeaderHome>
 
         <Global>
@@ -74,33 +72,22 @@ class App extends Component {
               data.map((item, index) => {
                 return (
                   <Content>
-                    {index === 0 ? (
-                      <Fisrt>
-                        <H1 color="#000"> {item.title} </H1>
-                        <H2> Source : {item.source.name} </H2>
-                        <Img
-                          src={item.urlToImage}
-                          alt={item.source.name}
-                          width="75%"
-                        />
-                        <p> {item.description} </p>
-                        <a href={item.url}>Lire</a>
-                        <p> {item.publishedAt} </p>
-                      </Fisrt>
-                    ) : (
-                      <div key={index}>
-                        <H1 color="#000"> {item.title} </H1>
-                        <H2> Source : {item.source.name} </H2>
-                        <Img
-                          src={item.urlToImage}
-                          alt={item.source.name}
-                          width="75%"
-                        />
-                        <p> {item.description} </p>
-                        <a href={item.url}>Lire</a>
-                        <p> {item.publishedAt} </p>
-                      </div>
-                    )}
+                    <Article key={index}>
+                      <H2 color="#000"> {item.title} </H2>
+                      <smal> Source : {item.source.name} </smal>
+                      <Img
+                        src={
+                          item.urlToImage === null
+                            ? 'https://placeimg.com/640/420/any'
+                            : item.urlToImage
+                        }
+                        alt={item.source.name}
+                        width="100%"
+                      />
+                      <p> {item.description} </p>
+                      <a href={item.url}>Lire ⌲</a>
+                      <Hr />
+                    </Article>
                   </Content>
                 );
               })
