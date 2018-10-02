@@ -1,9 +1,12 @@
 import { combineReducers } from 'redux';
 import sportReducer from './sportReducer';
+import scienceReducer from './scienceReducer';
+
 import * as constantsActions from '../utils/constants_actions';
 
 const appReducers = combineReducers({
-  sportReducer
+  sportReducer,
+  scienceReducer
 });
 
 const reducers = (state, action) => {

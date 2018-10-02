@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { fetchDataIfNeeded } from '../../actions/sportAction';
+import { fetchDataIfNeeded } from '../../actions/scienceAction';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
@@ -10,6 +10,7 @@ import Img from '../../components/ui/Img';
 import HeaderHome from '../../components/ui/HeaderHome';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import { Link } from 'react-router-dom';
 
 const AppWapper = styled.div`
   text-align: center;
@@ -52,11 +53,13 @@ class Science extends Component {
 
     return (
       <AppWapper>
-        <HeaderHome>
+        <HeaderHome science>
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
+          <Link to="/">Sport</Link>
         </HeaderHome>
+
         <Global>
           <div>
             {error ? (

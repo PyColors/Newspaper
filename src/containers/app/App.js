@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { fetchDataIfNeeded } from '../../actions/sportAction';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
@@ -52,10 +53,12 @@ class App extends Component {
 
     return (
       <AppWapper>
-        <HeaderHome>
+        <HeaderHome sport>
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
+
+          <Link to="/science">Science</Link>
         </HeaderHome>
 
         <Global>
