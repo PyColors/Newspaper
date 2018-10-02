@@ -33,7 +33,7 @@
     "react-router": "^4.1.2",
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^4.0.8",
-    "react-test-renderer": "^16.2.0",
+    "react-test-renderer": "^16.5.2",
     "react-translate": "^6.0.0",
     "redux": "^4.0.0",
     "redux-logger": "^2.7.4",

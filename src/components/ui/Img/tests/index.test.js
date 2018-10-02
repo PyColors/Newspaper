@@ -1,4 +1,5 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
 import Img from '../index';
@@ -10,6 +11,13 @@ const renderComponent = (props = {}) =>
   shallow(<img src={src} alt={alt} {...props} />);
 
 describe('<Img />', () => {
+  it('should match the snapshot', () => {
+    const renderedComponent = renderer
+      .create(<Img src="http://pycolor.com/test.jpg" alt="test" />)
+      .toJSON();
+    expect(renderedComponent).toMatchSnapshot();
+  });
+
   it('should have an src attribute', () => {
     const renderedComponent = renderComponent();
     expect(renderedComponent.prop('src')).toEqual(src);
