@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
 import { fetchDataIfNeeded } from '../../actions/sportAction';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
-import Footer from '../../components/footer/Footer';
 import HeaderHome from '../../components/ui/HeaderHome';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
@@ -15,7 +15,7 @@ const AppWapper = styled.div`
   text-align: center;
 `;
 
-class App extends Component {
+class Science extends Component {
   componentDidMount() {
     this.props.dispatch(fetchDataIfNeeded());
   }
@@ -57,7 +57,6 @@ class App extends Component {
             <FormattedMessage {...messages.titleMessage} />
           </H1>
         </HeaderHome>
-
         <Global>
           <div>
             {error ? (
@@ -94,14 +93,13 @@ class App extends Component {
               })
             )}
           </div>
-          <Footer />
         </Global>
       </AppWapper>
     );
   }
 }
 
-App.propTypes = {
+Science.propTypes = {
   data: PropTypes.array.isRequired,
   isLoading: PropTypes.bool.isRequired
 };
@@ -116,4 +114,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(Science);

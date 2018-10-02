@@ -1,4 +1,6 @@
-import React from 'react';
+/*
+
+mport React from 'react';
 import { shallow } from 'enzyme';
 
 import Label from '../index';
@@ -37,3 +39,6 @@ describe('<Label />', () => {
     expect(renderedComponent.hasClass(className)).toBe(true);
   });
 });
+
+
+*/
