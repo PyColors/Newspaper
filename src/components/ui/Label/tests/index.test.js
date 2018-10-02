@@ -1,6 +1,4 @@
-/*
-
-mport React from 'react';
+import React from 'react';
 import { shallow } from 'enzyme';
 
 import Label from '../index';
@@ -12,11 +10,6 @@ const renderComponent = (props = {}) =>
   shallow(<Label title={'title'} htmlFor={'htmlFor'} {...props} />);
 
 describe('<Label />', () => {
-  it('should have an title attribute', () => {
-    const renderedComponent = renderComponent();
-    expect(renderedComponent.prop('title')).toEqual(title);
-  });
-
   it('should have an htmlFor attribute', () => {
     const renderedComponent = renderComponent();
     expect(renderedComponent.prop('htmlFor')).toEqual(htmlFor);
@@ -27,18 +20,4 @@ describe('<Label />', () => {
     const renderedComponent = shallow(<Label>{children}</Label>);
     expect(renderedComponent.contains(children)).toBe(false);
   });
-
-  it('should not have a className attribute', () => {
-    const renderedComponent = renderComponent();
-    expect(renderedComponent.prop('className')).toBeUndefined();
-  });
-
-  it('should assume a className attribute', () => {
-    const className = 'test';
-    const renderedComponent = renderComponent({ className });
-    expect(renderedComponent.hasClass(className)).toBe(true);
-  });
 });
-
-
-*/

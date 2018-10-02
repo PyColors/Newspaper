@@ -6,7 +6,7 @@ const homePageReducer = (
     data: [],
     error: null
   },
-  action
+  actiona
 ) => {
   switch (action.type) {
     case constantsActions.FETCH_DATA:
