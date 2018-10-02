@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import App from './containers/app/App';
+import Root from './components/Root';
 import configureStore from './store';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -13,9 +12,7 @@ const store = configureStore();
 ReactDOM.render(
   <IntlProvider locale="en">
     <WrapperApp>
-      <Provider store={store}>
-        <App />
-      </Provider>
+      <Root store={store} />
     </WrapperApp>
   </IntlProvider>,
   document.getElementById('root')
