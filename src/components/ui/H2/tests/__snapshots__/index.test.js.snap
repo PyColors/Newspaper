@@ -2,6 +2,7 @@
 
 exports[`<H2 /> should match the snapshot 1`] = `
 <h2
+  class="className"
   className="sc-bdVaJa ikrnGl"
 >
    
