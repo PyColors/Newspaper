@@ -1,9 +1,21 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
-
-import H2 from '../index';
+import H2 from '../../H2';
 
 describe('<H2 />', () => {
+  it('should match the snapshot', () => {
+    const renderedComponent = renderer
+      .create(
+        <H2 class="className">
+          {' '}
+          <span>Description</span>>
+        </H2>
+      )
+      .toJSON();
+    expect(renderedComponent).toMatchSnapshot();
+  });
+
   it('should render an <H1> tag', () => {
     const renderedComponent = shallow(<H2 />);
     expect(renderedComponent.type()).toEqual('h2');
