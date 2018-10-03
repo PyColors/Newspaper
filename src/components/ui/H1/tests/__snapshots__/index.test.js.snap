@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H1 /> should match the snapshot 1`] = `
+<h1
+  className="sc-bdVaJa jvORyl"
+>
+   
+  <span>
+    Description
+  </span>
+  &gt;
+</h1>
+`;
