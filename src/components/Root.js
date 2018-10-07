@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import App from '../containers/app/App';
-import Science from '../containers/science/Science';
+import Science from '../containers/science';
 
 const Root = ({ store }) => (
   <Provider store={store}>
