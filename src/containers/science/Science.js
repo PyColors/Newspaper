@@ -57,7 +57,7 @@ class Science extends Component {
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
-          <Link to="/">Sport</Link>
+          <Link to="/sport">Sport</Link>
         </HeaderHome>
 
         <Global>
