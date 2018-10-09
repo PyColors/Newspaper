@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-
+import moment from 'moment';
 import { fetchDataIfNeeded } from '../../actions/scienceAction';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
