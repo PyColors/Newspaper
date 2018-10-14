@@ -1,4 +1,4 @@
-# Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) 💅
+# Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) <💅> 
 
 [![N|Solid](http://www.pvhc.net/img28/wvjdpysovmhdmzunrlqr.png)]
 
@@ -8,6 +8,7 @@ Newspaper is a responsive web page with some data, newspapers by categories: Spo
 
 Newspaper uses a number of open source projects to work properly:
 
+* [Redux] - Predictable state container for JavaScript apps 
 * [styled-components] - Visual primitives for the component age
 * [Storybook] - Interactive UI component dev & test
 * [Enzyme] - JavaScript Testing utilities for React
@@ -61,6 +62,7 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
+   [Redux]: <https://github.com/reduxjs/redux>
    [Styled-components]: <https://github.com/styled-components/styled-components>
    [Storybook]: <https://github.com/storybooks/storybook>
    [Enzyme]: <https://github.com/airbnb/enzyme>
