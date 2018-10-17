@@ -57,8 +57,8 @@ class Sport extends Component {
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
-
-          <Link to="/science">Science</Link>
+          <Link to="/science">Science</Link> -{' '}
+          <Link to="/business">Business</Link>
         </HeaderHome>
 
         <Global>
