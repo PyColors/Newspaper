@@ -50,6 +50,11 @@ const App = () => {
             <FormattedMessage {...messages.science} />
           </H3>
         </Link>
+        <Link to="/business">
+          <H3>
+            <FormattedMessage {...messages.business} />
+          </H3>
+        </Link>
       </Content>
       <Footer />
     </Global>

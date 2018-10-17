@@ -21,5 +21,9 @@ export default defineMessages({
   science: {
     id: 'newspaper.containers.App.title.science',
     defaultMessage: 'Science'
+  },
+  business: {
+    id: 'newspaper.containers.App.title.business',
+    defaultMessage: 'Business'
   }
 });
