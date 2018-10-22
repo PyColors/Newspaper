@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { fetchDataIfNeeded } from '../../actions/sportAction';
 import styled from 'styled-components';
+import { Hr, Content, Article, Global } from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
@@ -23,33 +24,6 @@ class Sport extends Component {
 
   render() {
     const { data, isLoading, error } = this.props;
-
-    const Global = styled.div`
-      width: 75%;
-      margin: 0 auto;
-    `;
-
-    const Content = styled.div`
-      display: inline-block;
-      vertical-align: top;
-      width: 75%;
-      padding: 0;
-    `;
-
-    const Article = styled.article`
-      max-width: 64rem;
-      padding: 1rem 3rem;
-      margin: 0 auto;
-      font-size: 1.1rem;
-    `;
-
-    const Hr = styled.hr`
-      height: 1px;
-      padding: 0;
-      margin: 1rem 0;
-      background-color: #dcdbdb;
-      border: 0;
-    `;
 
     return (
       <AppWapper>
