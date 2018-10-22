@@ -73,10 +73,10 @@ class Business extends Component {
             ) : (
               data.map((item, index) => {
                 return (
-                  <Content>
-                    <Article key={index}>
+                  <Content key={index}>
+                    <Article>
                       <H2 color="#000"> {item.title} </H2>
-                      <smal> Source : {item.source.name} </smal>
+                      <span> Source : {item.source.name} </span>
                       <Img
                         src={
                           item.urlToImage === null
