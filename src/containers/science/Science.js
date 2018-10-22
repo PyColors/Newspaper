@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import moment from 'moment';
 import { fetchDataIfNeeded } from '../../actions/scienceAction';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
@@ -74,10 +73,10 @@ class Science extends Component {
             ) : (
               data.map((item, index) => {
                 return (
-                  <Content>
-                    <Article key={index}>
+                  <Content key={index}>
+                    <Article>
                       <H2 color="#000"> {item.title} </H2>
-                      <smal> Source : {item.source.name} </smal>
+                      <span> Source : {item.source.name} </span>
                       <Img
                         src={
                           item.urlToImage === null
