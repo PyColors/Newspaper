@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import { ArrowAltCircleRight } from 'styled-icons/fa-regular/ArrowAltCircleRight';
+import theme from '../styles/theme';
+
+const { colors } = theme;
 
 export const AppWapper = styled.div`
   text-align: center;
@@ -29,4 +33,8 @@ export const Hr = styled.hr`
   margin: 1rem 0;
   background-color: #dcdbdb;
   border: 0;
+`;
+
+export const ArrowAltCircleRightPrimaryOne = styled(ArrowAltCircleRight)`
+  color: ${colors.primaryOne};
 `;
