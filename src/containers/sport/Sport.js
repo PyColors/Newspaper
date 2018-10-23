@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { fetchDataIfNeeded } from '../../actions/sportAction';
-import styled from 'styled-components';
-import { Hr, Content, Article, Global } from '../../helpers/styles';
+import { Hr, Content, Article, Global, AppWapper } from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
@@ -12,10 +11,6 @@ import Footer from '../../components/footer/Footer';
 import HeaderHome from '../../components/ui/HeaderHome';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-
-const AppWapper = styled.div`
-  text-align: center;
-`;
 
 class Sport extends Component {
   componentDidMount() {

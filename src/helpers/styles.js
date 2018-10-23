@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const AppWapper = styled.div`
+  text-align: center;
+`;
+
 export const Global = styled.div`
   width: 75%;
   margin: 0 auto;
