@@ -65,7 +65,7 @@ class Sport extends Component {
                         width="100%"
                       />
                       <p> {item.description} </p>
-                      <a href={item.url}>Lire </a>{' '}
+                      <a href={item.url}>Lire</a>{' '}
                       <ArrowAltCircleRightPrimaryOne
                         size="18"
                         title="Lire l'article"

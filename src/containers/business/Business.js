@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { fetchDataIfNeeded } from '../../actions/scienceAction';
-import { Hr, Content, Article, Global, AppWapper } from '../../helpers/styles';
+import {
+  Hr,
+  Content,
+  Article,
+  Global,
+  AppWapper,
+  ArrowAltCircleRightPrimaryOne
+} from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
@@ -56,7 +63,11 @@ class Business extends Component {
                         width="100%"
                       />
                       <p> {item.description} </p>
-                      <a href={item.url}>Lire ⌲</a>
+                      <a href={item.url}>Lire</a>{' '}
+                      <ArrowAltCircleRightPrimaryOne
+                        size="18"
+                        title="Lire l'article"
+                      />
                       <Hr />
                     </Article>
                   </Content>
