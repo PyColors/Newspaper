@@ -1,11 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import {
-  Content,
-  LogoNewspaper,
-  LogoNewspaperLink
-} from '../../helpers/styles';
+import { LogoNewspaper, LogoNewspaperLink } from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import Footer from '../../components/footer/Footer';
 import HeaderHome from '../../components/ui/HeaderHome';
@@ -50,7 +46,6 @@ const App = () => {
         </Link>
         <Footer />
       </HeaderHome>
-      <Content />
     </Global>
   );
 };
