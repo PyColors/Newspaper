@@ -1,8 +1,19 @@
 import styled from 'styled-components';
 import { ArrowAltCircleRight } from 'styled-icons/fa-regular/ArrowAltCircleRight';
+import { Newspaper } from 'styled-icons/fa-regular/Newspaper';
 import theme from '../styles/theme';
 
 const { colors } = theme;
+
+export const LogoNewspaper = styled(Newspaper)`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+`;
+
+export const LogoNewspaperLink = styled.a`
+  color: ${colors.white};
+`;
 
 export const AppWapper = styled.div`
   text-align: center;
@@ -11,6 +22,7 @@ export const AppWapper = styled.div`
 export const Global = styled.div`
   width: 75%;
   margin: 0 auto;
+  color: white;
 `;
 
 export const Content = styled.div`
