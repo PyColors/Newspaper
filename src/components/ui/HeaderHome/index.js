@@ -6,11 +6,16 @@ const { colors } = theme;
 
 const HeaderHome = styled.header`
   color: ${colors.white};
+  position: fixed;
+  width: 100%;
+  position: fixed;
+  padding: 3.8% 0;
+  border-bottom: 1px white solid;
 
   ${props =>
     props.science &&
     css`
-      ${generator({ gradient: 'ali', type: 'ellipse' })} padding: 3.8% 0;
+      ${generator({ gradient: 'ali', type: 'ellipse' })};
     `};
 
   ${props =>
@@ -19,7 +24,7 @@ const HeaderHome = styled.header`
       ${generator({
         gradient: 'electric_violet',
         type: 'radial'
-      })} padding: 3.8% 0;
+      })};
     `};
 `;
 

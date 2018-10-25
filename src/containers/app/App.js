@@ -11,20 +11,14 @@ import Footer from '../../components/footer/Footer';
 import HeaderHome from '../../components/ui/HeaderHome';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-import { generator } from 'uigradients';
 
 const App = () => {
   const Global = styled.div`
-      text-align: center;
-      margin: 0 auto;
-      height:100%;
-      color: white;
-      ${generator({
-        gradient: 'electric_violet',
-        type: 'radial'
-      })} 
-    \`};
-    `;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    color: white;
+  `;
 
   const H3 = styled.h3`
     color: white;
@@ -39,8 +33,6 @@ const App = () => {
         <H1>
           <FormattedMessage {...messages.titleMessage} />
         </H1>
-      </HeaderHome>
-      <Content>
         <Link to="/sport">
           <H3>
             <FormattedMessage {...messages.sports} />
@@ -56,8 +48,9 @@ const App = () => {
             <FormattedMessage {...messages.business} />
           </H3>
         </Link>
-      </Content>
-      <Footer />
+        <Footer />
+      </HeaderHome>
+      <Content />
     </Global>
   );
 };
