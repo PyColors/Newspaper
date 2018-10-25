@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import {
+  Content,
+  LogoNewspaper,
+  LogoNewspaperLink
+} from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import Footer from '../../components/footer/Footer';
 import HeaderHome from '../../components/ui/HeaderHome';
@@ -21,13 +26,6 @@ const App = () => {
     \`};
     `;
 
-  const Content = styled.div`
-    display: inline-block;
-    vertical-align: top;
-    width: 75%;
-    padding: 0;
-  `;
-
   const H3 = styled.h3`
     color: white;
   `;
@@ -35,6 +33,9 @@ const App = () => {
   return (
     <Global>
       <HeaderHome sport>
+        <LogoNewspaperLink href="/">
+          <LogoNewspaper size="54" title="Logo" />
+        </LogoNewspaperLink>
         <H1>
           <FormattedMessage {...messages.titleMessage} />
         </H1>

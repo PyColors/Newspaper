@@ -8,7 +8,9 @@ import {
   Article,
   Global,
   AppWapper,
-  ArrowAltCircleRightPrimaryOne
+  ArrowAltCircleRightPrimaryOne,
+  LogoNewspaper,
+  LogoNewspaperLink
 } from '../../helpers/styles';
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
@@ -29,6 +31,9 @@ class Business extends Component {
     return (
       <AppWapper>
         <HeaderHome science>
+          <LogoNewspaperLink href="/">
+            <LogoNewspaper size="54" title="Logo" />
+          </LogoNewspaperLink>
           <H1>
             <FormattedMessage {...messages.titleMessage} />
           </H1>
