@@ -41,7 +41,7 @@ class Business extends Component {
         </HeaderHome>
 
         <Global>
-          <div>
+          <React.Fragment>
             {error ? (
               <p>
                 Sorry, we had a problem changing your data. Please try again
@@ -79,7 +79,7 @@ class Business extends Component {
                 );
               })
             )}
-          </div>
+          </React.Fragment>
         </Global>
       </AppWapper>
     );
