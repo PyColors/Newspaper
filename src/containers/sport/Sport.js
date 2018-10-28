@@ -6,7 +6,6 @@ import { fetchDataIfNeeded } from '../../actions/sportAction';
 import {
   Hr,
   Content,
-  Article,
   Global,
   AppWapper,
   ArrowAltCircleRightPrimaryOne,
