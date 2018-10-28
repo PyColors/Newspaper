@@ -5,7 +5,6 @@ import { fetchDataIfNeeded } from '../../actions/scienceAction';
 import {
   Hr,
   Content,
-  Article,
   Global,
   AppWapper,
   ArrowAltCircleRightPrimaryOne,
@@ -41,7 +40,7 @@ class Science extends Component {
         </HeaderHome>
 
         <Global>
-          <React.Fragment>
+          <div>
             {error ? (
               <p>
                 Sorry, we had a problem changing your data. Please try again
@@ -55,7 +54,7 @@ class Science extends Component {
               data.map((item, index) => {
                 return (
                   <Content key={index}>
-                    <Article>
+                    <React.Fragment>
                       <H2 color="#000"> {item.title} </H2>
                       <span> Source : {item.source.name} </span>
                       <Img
@@ -74,12 +73,12 @@ class Science extends Component {
                         title="Lire l'article"
                       />
                       <Hr />
-                    </Article>
+                    </React.Fragment>
                   </Content>
                 );
               })
             )}
-          </React.Fragment>
+          </div>
         </Global>
       </AppWapper>
     );
