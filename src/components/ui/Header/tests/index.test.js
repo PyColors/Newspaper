@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 
 import HeaderHome from '../index';
 
-describe('<HeaderHome />', () => {
+describe('<Header />', () => {
   it('should match the snapshot', () => {
     const renderedComponent = renderer
       .create(
@@ -19,7 +19,7 @@ describe('<HeaderHome />', () => {
     expect(renderedComponent).toMatchSnapshot();
   });
 
-  it('should render an <HeaderHome> tag', () => {
+  it('should render an <Header> tag', () => {
     const renderedComponent = shallow(<HeaderHome />);
     expect(renderedComponent.type()).toEqual('header');
   });

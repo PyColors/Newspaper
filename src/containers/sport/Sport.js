@@ -16,7 +16,7 @@ import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
 import Footer from '../../components/footer/Footer';
-import HeaderHome from '../../components/ui/HeaderHome';
+import Header from '../../components/ui/Header';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 
@@ -30,7 +30,7 @@ class Sport extends Component {
 
     return (
       <AppWapper>
-        <HeaderHome sport>
+        <Header sport>
           <LogoNewspaperLink href="/">
             <LogoNewspaper size="54" title="Logo" />
           </LogoNewspaperLink>
@@ -39,7 +39,7 @@ class Sport extends Component {
           </H1>
           <Link to="/science">Science</Link> -{' '}
           <Link to="/business">Business</Link>
-        </HeaderHome>
+        </Header>
 
         <Global>
           <div>

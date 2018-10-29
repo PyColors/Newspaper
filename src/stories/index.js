@@ -9,7 +9,7 @@ import H2 from '../components/ui/H2';
 
 import SatusPanel from '../components/ui/SatusPanel';
 
-import HeaderHome from '../components/ui/HeaderHome';
+import HeaderHome from '../components/ui/Header';
 import Button from '../components/ui/Button';
 
 import Label from '../components/ui/Label';

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import H1 from '../../components/ui/H1';
 import Footer from '../../components/footer/Footer';
-import HeaderHome from '../../components/ui/HeaderHome';
+import HeaderHome from '../../components/ui/Header';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import { generator } from 'uigradients';

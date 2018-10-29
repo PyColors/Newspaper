@@ -14,7 +14,7 @@ import {
 import H1 from '../../components/ui/H1';
 import H2 from '../../components/ui/H2';
 import Img from '../../components/ui/Img';
-import HeaderHome from '../../components/ui/HeaderHome';
+import Header from '../../components/ui/Header';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import { Link } from 'react-router-dom';
@@ -29,7 +29,7 @@ class Science extends Component {
 
     return (
       <AppWapper>
-        <HeaderHome science>
+        <Header science>
           <LogoNewspaperLink href="/">
             <LogoNewspaper size="54" title="Logo" />
           </LogoNewspaperLink>
@@ -37,7 +37,7 @@ class Science extends Component {
             <FormattedMessage {...messages.titleMessage} />
           </H1>
           <Link to="/sport">Sport</Link>- <Link to="/business">Business</Link>
-        </HeaderHome>
+        </Header>
 
         <Global>
           <div>
