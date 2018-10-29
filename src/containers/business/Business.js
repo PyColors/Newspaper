@@ -29,7 +29,7 @@ class Business extends Component {
 
     return (
       <AppWapper>
-        <HeaderHome science>
+        <HeaderHome business>
           <LogoNewspaperLink href="/">
             <LogoNewspaper size="54" title="Logo" />
           </LogoNewspaperLink>

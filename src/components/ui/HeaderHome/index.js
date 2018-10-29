@@ -15,7 +15,19 @@ const HeaderHome = styled.header`
   ${props =>
     props.science &&
     css`
-      ${generator({ gradient: 'ali', type: 'ellipse' })};
+      ${generator({
+        gradient: 'ali',
+        type: 'ellipse'
+      })};
+    `};
+
+  ${props =>
+    props.business &&
+    css`
+      ${generator({
+        gradient: 'amethyst',
+        type: 'ellipse'
+      })};
     `};
 
   ${props =>
