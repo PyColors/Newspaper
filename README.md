@@ -13,6 +13,9 @@ Newspaper uses a number of open source projects to work properly:
 * [styled-icons] - Font Awesome, Feather, Material Design, and Octicons icon packs as Styled Components 
 * [Storybook] - Interactive UI component dev & test
 * [Enzyme] - JavaScript Testing utilities for React
+* [uiGradients] - Beautiful colour gradients for design and code
+
+
 
 And of course Newspaper itself is open source with a [public repository][dill]
  on GitHub.
@@ -68,4 +71,5 @@ MIT
    [styled-icons]: <https://github.com/jacobwgillespie/styled-icons>
    [Storybook]: <https://github.com/storybooks/storybook>
    [Enzyme]: <https://github.com/airbnb/enzyme>
+   [uiGradients]: <https://github.com/ghosh/uiGradients>
  
