@@ -22,7 +22,7 @@ export const AppWapper = styled.div`
 export const Global = styled.div`
   width: 75%;
   margin: 0 auto;
-  padding: 265px 0 0;
+  padding: 285px 0 0;
 `;
 
 export const Content = styled.div`
