@@ -55,7 +55,7 @@ class Business extends Component {
                 return (
                   <Content key={index}>
                     <React.Fragment>
-                      ><H2 color="#000"> {item.title} </H2>
+                      <H2 color="#000"> {item.title} </H2>
                       <span> Source : {item.source.name} </span>
                       <Img
                         src={
@@ -74,7 +74,6 @@ class Business extends Component {
                       />
                       <Hr />
                     </React.Fragment>
-                    >
                   </Content>
                 );
               })
