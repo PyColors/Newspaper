@@ -11,7 +11,7 @@ Newspaper uses a number of open source projects to work properly:
 * [Redux] - Predictable state container for JavaScript apps 
 * [styled-components] - Visual primitives for the component age
 * [styled-icons] - Font Awesome, Feather, Material Design, and Octicons icon packs as Styled Components 
-* [Storybook] - Interactive UI component dev & test
+* [Storybook] - Interactive JS UI component dev & test
 * [Enzyme] - JavaScript Testing utilities for React
 * [uiGradients] - Beautiful colour gradients for design and code
 
