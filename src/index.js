@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Index from './components/Root/index';
+import Root from './components/root';
 import configureStore from './store';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -12,7 +12,7 @@ const store = configureStore();
 ReactDOM.render(
   <IntlProvider locale="en">
     <WrapperApp>
-      <Index store={store} />
+      <Root store={store} />
     </WrapperApp>
   </IntlProvider>,
   document.getElementById('root')

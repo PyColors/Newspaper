@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import App from '../../containers/app/App';
-import Science from '../../containers/science/index';
-import Sport from '../../containers/sport/index';
-import Business from '../../containers/business/index';
-import NotFound from '../../containers/not-found/index';
+import Science from '../../containers/science';
+import Sport from '../../containers/sport';
+import Business from '../../containers/business';
+import NotFound from '../../containers/not-found';
 
-const Index = ({ store }) => (
+const Root = ({ store }) => (
   <Provider store={store}>
     <Router>
       <Switch>
@@ -22,8 +22,8 @@ const Index = ({ store }) => (
   </Provider>
 );
 
-Index.propTypes = {
+Root.propTypes = {
   store: PropTypes.object.isRequired
 };
 
-export default Index;
+export default Root;
