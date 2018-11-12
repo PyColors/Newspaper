@@ -28,8 +28,8 @@ const Img = props => {
 };
 
 Img.propTypes = {
-  alt: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+  src: PropTypes.string,
   title: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string

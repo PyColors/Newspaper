@@ -23,16 +23,14 @@ class LabelComponent extends Component {
 
     return (
       <Label htmlFor={htmlFor}>
-        <TitleLabel>
-          {title}
-        </TitleLabel>
+        <TitleLabel>{title}</TitleLabel>
       </Label>
     );
   }
 }
 
 Label.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   htmlFor: PropTypes.string
 };
 
