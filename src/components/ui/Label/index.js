@@ -35,6 +35,7 @@ Label.propTypes = {
 };
 
 Label.defaultProps = {
+  title: 'Title Label',
   htmlFor: ''
 };
 export default LabelComponent;

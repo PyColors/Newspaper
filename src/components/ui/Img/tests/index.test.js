@@ -13,7 +13,7 @@ const renderComponent = (props = {}) =>
 describe('<Img />', () => {
   it('should match the snapshot', () => {
     const renderedComponent = renderer
-      .create(<Img src="http://pycolor.com/test.jpg" alt="test" />)
+      .create(<Img src="http://pycolor.com/test.jpg" alt="PyColors" />)
       .toJSON();
     expect(renderedComponent).toMatchSnapshot();
   });
