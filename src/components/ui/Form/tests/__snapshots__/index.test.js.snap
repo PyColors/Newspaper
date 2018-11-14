@@ -6,6 +6,6 @@ exports[`<Form /> should match the snapshot 1`] = `
   className="sc-bdVaJa dgUUwq"
   id="id"
   method="method"
-  onSubmit="onSubmit"
+  onSubmit={[Function]}
 />
 `;

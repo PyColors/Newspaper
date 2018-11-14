@@ -15,13 +15,14 @@ class FormComponent extends Component {
 }
 
 Form.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func,
   id: PropTypes.string,
   action: PropTypes.string,
   method: PropTypes.string
 };
 
 Form.defaultProps = {
+  onSubmit: PropTypes.func,
   id: '',
   action: '',
   method: ''
