@@ -7,7 +7,6 @@ import {
   Content,
   Global,
   AppWapper,
-  ArrowAltCircleRightPrimaryOne,
   LogoNewspaper,
   LogoNewspaperLink
 } from '../../helpers/styles';
@@ -67,12 +66,7 @@ class Business extends Component {
                         width="100%"
                       />
                       <p> {item.description} </p>
-                      <a href={item.url}>Lire</a>{' '}
-                      <ArrowAltCircleRightPrimaryOne
-                        size="18"
-                        title="Lire l'article"
-                      />
-                      <Hr />
+                      <a href={item.url}>Lire</a> <Hr />
                     </React.Fragment>
                   </Content>
                 );

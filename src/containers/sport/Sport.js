@@ -8,7 +8,6 @@ import {
   Content,
   Global,
   AppWapper,
-  ArrowAltCircleRightPrimaryOne,
   LogoNewspaper,
   LogoNewspaperLink
 } from '../../helpers/styles';
@@ -69,11 +68,8 @@ class Sport extends Component {
                         width="100%"
                       />
                       <p> {item.description} </p>
-                      <a href={item.url}>Lire</a>{' '}
-                      <ArrowAltCircleRightPrimaryOne
-                        size="18"
-                        title="Lire l'article"
-                      />
+                      <a href={item.url}>Lire</a>
+
                       <Hr />
                     </React.Fragment>
                   </Content>
