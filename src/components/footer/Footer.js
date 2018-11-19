@@ -6,7 +6,7 @@ const Footer = () => (
   <footer>
     <p>Made with ♥ by Py Colors</p>
     <a href="https://github.com/PyColors/Newspaper">
-      <SvgIcon icon={ICONS.FACEBOOK} color={COLOR_ICONS.BLACK} />
+      <SvgIcon icon={ICONS.GITHUB} color={COLOR_ICONS.WHITE} />
     </a>
   </footer>
 );
