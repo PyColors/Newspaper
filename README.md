@@ -11,6 +11,7 @@ Newspaper uses a number of open source projects to work properly:
 * [Redux] - Predictable state container for JavaScript apps 
 * [styled-components] - Visual primitives for the component age
 * [Storybook] - Interactive JS UI component dev & test
+* [Axios] - Promise based HTTP client for the browser and node.js
 * [Enzyme] - JavaScript Testing utilities for React
 * [uiGradients] - Beautiful colour gradients for design and code
 
@@ -68,6 +69,7 @@ MIT
    [Redux]: <https://github.com/reduxjs/redux>
    [Styled-components]: <https://github.com/styled-components/styled-components>
    [Storybook]: <https://github.com/storybooks/storybook>
+   [Axios]: <https://github.com/axios/axios>
    [Enzyme]: <https://github.com/airbnb/enzyme>
    [uiGradients]: <https://github.com/ghosh/uiGradients>
  
