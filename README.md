@@ -14,6 +14,7 @@ Newspaper uses a number of open source projects to work properly:
 * [Axios] - Promise based HTTP client for the browser and node.js
 * [Enzyme] - JavaScript Testing utilities for React
 * [uiGradients] - Beautiful colour gradients for design and code
+* [Prettier] - Prettier is an opinionated code formatter
 
 
 
@@ -72,4 +73,5 @@ MIT
    [Axios]: <https://github.com/axios/axios>
    [Enzyme]: <https://github.com/airbnb/enzyme>
    [uiGradients]: <https://github.com/ghosh/uiGradients>
+   [Prettier]: <https://github.com/prettier/prettier>
  
