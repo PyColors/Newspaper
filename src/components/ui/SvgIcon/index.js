@@ -5,7 +5,7 @@ import Wrapper from './Wrapper';
 
 const SvgIcon = props => {
   return (
-    <Wrapper viewBox="0 0 1024 1024">
+    <Wrapper viewBox="0 0 438.549 438.549">
       <g fill={props.color}>
         <path d={props.icon} />
       </g>

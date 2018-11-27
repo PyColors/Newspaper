@@ -17,6 +17,8 @@ import Header from '../../components/ui/Header';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import { Link } from 'react-router-dom';
+import { COLOR_ICONS, ICONS } from '../../utils/constants';
+import SvgIcon from '../../components/ui/SvgIcon';
 
 class Business extends Component {
   componentDidMount() {
@@ -66,7 +68,14 @@ class Business extends Component {
                         width="100%"
                       />
                       <p> {item.description} </p>
-                      <a href={item.url}>Lire</a> <Hr />
+                      <a href={item.url}>
+                        Lire{' '}
+                        <SvgIcon
+                          icon={ICONS.ARROW_RIGHT}
+                          color={COLOR_ICONS.BLACK}
+                        />
+                      </a>
+                      <Hr />
                     </React.Fragment>
                   </Content>
                 );

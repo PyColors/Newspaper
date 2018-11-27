@@ -3,7 +3,7 @@
 exports[`<SvgIcon /> should match the snapshot 1`] = `
 <svg
   className="sc-bdVaJa fkiftl"
-  viewBox="0 0 1024 1024"
+  viewBox="0 0 438.549 438.549"
 >
   <g
     fill="#222"
