@@ -6,7 +6,7 @@ import { COLOR_ICONS, ICONS } from '../../../../utils/constants';
 
 const icon = ICONS.FACEBOOK;
 const color = COLOR_ICONS.BLACK;
-const viewBox = '0 0 1024 1024';
+const viewBox = '0 0 438.549 438.549';
 
 const renderComponent = (props = {}) =>
   shallow(<SvgIcon color={color} icon={icon} {...props} />);
