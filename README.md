@@ -15,7 +15,7 @@ Newspaper uses a number of open source projects to work properly:
 * [Enzyme] - JavaScript Testing utilities for React
 * [uiGradients] - Beautiful colour gradients for design and code
 * [Prettier] - Prettier is an opinionated code formatter
-
+* [ESLint] - The pluggable linting utility for JavaScript and JSX
 
 
 And of course Newspaper itself is open source with a [public repository][dill]
@@ -74,4 +74,5 @@ MIT
    [Enzyme]: <https://github.com/airbnb/enzyme>
    [uiGradients]: <https://github.com/ghosh/uiGradients>
    [Prettier]: <https://github.com/prettier/prettier>
+   [ESLint]: <https://github.com/eslint/eslint>
  
