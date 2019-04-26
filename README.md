@@ -1,6 +1,6 @@
 # Newspaper [![Build Status](https://travis-ci.org/PyColors/Newspaper.svg?branch=master)](https://travis-ci.org/PyColors/Newspaper) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) <💅> 
 
-[![N|Solid](http://www.pycolors.com/v2/git/newspaper/newspaper.png)]
+![N|Solid](http://www.pycolors.com/v2/git/newspaper/newspaper.png)
 
 Newspaper is a responsive web page with some data, newspapers by categories: Sport, Travel, Science, etc... with style-components...
   
